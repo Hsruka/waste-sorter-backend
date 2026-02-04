@@ -9,6 +9,7 @@ const dbConfig = {
   ssl: { rejectUnauthorized: true }
 };
 
+
 // Get all users
 exports.getAllUsers = async (req, res) => {
   try {
